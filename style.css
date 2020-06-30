@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat&display=swap');
+
+header {
+    background: #0B1C51;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-family: "Gochi Hand", cursive;
+    font-size: 52px;
+    padding-top: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+header nav ul li a {
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: #fff;
+    padding-left: 20px;
+}
+
+header nav ul li:last-child a
+{
+    margin-right: 0;
+}
+
+@media all and (min-width: 600px)
+{
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px
+    }
+
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+    }
+
+    header nav {
+        margin-top: 16px;
+    }
+
+    header nav ul li a:hover {
+        color: #bdbdbd;
+    }
+}
